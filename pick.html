@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>小行星 · 气泡字体挑一挑</title>
+<style>
+@font-face{font-family:'f2';src:url('f/wenkai.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f3';src:url('f/cormorant.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f4';src:url('f/playfair.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f5';src:url('f/mono.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f6';src:url('f/italianno.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f7';src:url('f/pinyon.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f8';src:url('f/greatvibes.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f9';src:url('f/cinzel.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f10';src:url('f/ebgaramond.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f11';src:url('f/lora.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f12';src:url('f/baskerville.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f13';src:url('f/spacemono.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f14';src:url('f/caveat.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f15';src:url('f/dancing.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f16';src:url('f/pacifico.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f17';src:url('f/amatic.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f18';src:url('f/bebas.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f19';src:url('f/quicksand.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f20';src:url('f/nunito.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f21';src:url('f/zcoolxiaowei.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f22';src:url('f/mashanzheng.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f23';src:url('f/longcang.ttf') format('truetype');font-display:swap;}
+@font-face{font-family:'f24';src:url('f/zcoolkuaile.ttf') format('truetype');font-display:swap;}
+*{box-sizing:border-box}
+body{margin:0;padding:18px 14px 80px;color:#4a3f47;
+ background:radial-gradient(120% 90% at 15% 0%,#fdeef4 0%,#f7f2f6 45%,#eef1f7 100%);
+ font:14px/1.6 system-ui,-apple-system,'PingFang SC','Microsoft YaHei',sans-serif}
+h1{font-size:18px;margin:2px 0 6px}
+h2{font-size:13px;margin:22px 0 10px;color:#7a6a75;font-weight:600}
+.tip{font-size:12px;color:#8a7d86;line-height:1.75;margin-bottom:6px}
+.bar{position:sticky;top:0;z-index:9;padding:10px 0 12px;background:linear-gradient(#fbf4f7,rgba(251,244,247,0))}
+input{width:100%;padding:11px 14px;border-radius:14px;border:1px solid rgba(255,255,255,.85);
+ background:rgba(255,255,255,.78);font-size:14px;color:#4a3f47;outline:none;
+ box-shadow:0 4px 16px rgba(160,140,155,.14)}
+.card{margin-bottom:12px}
+.head{display:flex;align-items:baseline;gap:8px;margin-bottom:5px;flex-wrap:wrap}
+.head b{font-size:12.5px}
+.head span{font-size:10.5px;color:#948690}
+.bubble{padding:13px 16px;border-radius:16px;background:rgba(255,255,255,.56);
+ border:1px solid rgba(255,255,255,.9);
+ box-shadow:0 8px 22px rgba(160,140,155,.16),inset 0 1px 0 rgba(255,255,255,.9);
+ font-size:15.5px;line-height:1.65;word-break:break-word;white-space:pre-wrap}
+</style></head><body>
+<h1>气泡字体挑一挑</h1>
+<div class="tip">换的只有三处：<b>气泡正文</b>、<b>思考链大小标题</b>、<b>顶栏备注名</b>（原来写死"系统"的都算）。<br>下面那行能改字；挑好了报编号或名字给我就行。</div>
+<div class="bar"><input id="ta" value="今天下雨了，记得带伞。好好吃饭，别又熬夜。How are you today? 0123456789"></div>
+<h2>现在 App 里有的</h2>
+      <div class="card">
+        <div class="head"><b>1. 系统默认</b><span>气泡现在用的就是这个</span></div>
+        <div class="bubble" style="font-family:system-ui,-apple-system,'PingFang SC','Microsoft YaHei',sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>2. 文楷</b><span>霞鹜文楷 · 中文最顺</span></div>
+        <div class="bubble" style="font-family:'f2', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>3. 衬线</b><span>Cormorant · 细衬线</span></div>
+        <div class="bubble" style="font-family:'f3', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>4. 衬线粗</b><span>Playfair Display</span></div>
+        <div class="bubble" style="font-family:'f4', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>5. 等宽</b><span>JetBrains Mono</span></div>
+        <div class="bubble" style="font-family:'f5', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>6. 花体细</b><span>Italianno（只英文）</span></div>
+        <div class="bubble" style="font-family:'f6', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>7. 花体</b><span>Pinyon Script（只英文）</span></div>
+        <div class="bubble" style="font-family:'f7', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>8. 手写花体</b><span>Great Vibes（只英文）</span></div>
+        <div class="bubble" style="font-family:'f8', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>9. 装饰体</b><span>Cinzel Decorative（只英文）</span></div>
+        <div class="bubble" style="font-family:'f9', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+<h2>新下的 · 英文/数字好看</h2>
+      <div class="card">
+        <div class="head"><b>10. Garamond</b><span>EB Garamond · 老书衬线</span></div>
+        <div class="bubble" style="font-family:'f10', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>11. Lora</b><span>Lora · 现代衬线，好读</span></div>
+        <div class="bubble" style="font-family:'f11', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>12. Baskerville</b><span>Libre Baskerville · 经典书卷</span></div>
+        <div class="bubble" style="font-family:'f12', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>13. Space Mono</b><span>Space Mono · 复古等宽</span></div>
+        <div class="bubble" style="font-family:'f13', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>14. Caveat</b><span>Caveat · 手写便签</span></div>
+        <div class="bubble" style="font-family:'f14', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>15. Dancing</b><span>Dancing Script · 圆润手写</span></div>
+        <div class="bubble" style="font-family:'f15', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>16. Pacifico</b><span>Pacifico · 圆头手写</span></div>
+        <div class="bubble" style="font-family:'f16', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>17. Amatic</b><span>Amatic SC · 细高瘦</span></div>
+        <div class="bubble" style="font-family:'f17', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>18. Bebas</b><span>Bebas Neue · 大写粗标题</span></div>
+        <div class="bubble" style="font-family:'f18', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>19. Quicksand</b><span>Quicksand · 圆几何</span></div>
+        <div class="bubble" style="font-family:'f19', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>20. Nunito</b><span>Nunito · 圆润无衬线</span></div>
+        <div class="bubble" style="font-family:'f20', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+<h2>新下的 · 中文字体（大，挑上才装进 App）</h2>
+      <div class="card">
+        <div class="head"><b>21. 站酷小薇</b><span>细秀的楷味标题字（6.3M）</span></div>
+        <div class="bubble" style="font-family:'f21', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>22. 马善政</b><span>毛笔楷书（5.9M）</span></div>
+        <div class="bubble" style="font-family:'f22', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>23. 龙藏</b><span>手写行书（5.2M）</span></div>
+        <div class="bubble" style="font-family:'f23', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+
+      <div class="card">
+        <div class="head"><b>24. 站酷快乐</b><span>圆胖可爱（1.5M）</span></div>
+        <div class="bubble" style="font-family:'f24', system-ui, sans-serif"><span class="txt">…</span></div>
+      </div>
+<script>
+var ta=document.getElementById('ta');
+function apply(){document.querySelectorAll('.txt').forEach(function(e){e.textContent=ta.value});}
+ta.addEventListener('input',apply);apply();
+</script></body></html>
